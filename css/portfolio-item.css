@@ -1,0 +1,42 @@
+/*!
+ * Start Bootstrap - Portfolio Item (https://startbootstrap.com/template-overviews/portfolio-item)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.navbar {
+  background-color: #235587;
+}
+
+a.navbar-brand, a.navbar-brand:hover {
+  color: #fff;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+footer {
+  background-color: #ECEEEF;
+}
+
+p.m-0.text-center.my-brand a {
+  font-family: 'Pacifico', cursive;
+  color: #688199;
+}
+
+p.m-0.text-center, p.m-0.text-center a {
+  color: #6E6F6F;
+}
+
+a, p, a:hover {
+  color: #2C3C3A;
+  font-family: 'IBM Plex Serif', serif;
+}

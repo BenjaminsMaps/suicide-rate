@@ -54,7 +54,7 @@ header.masthead {
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   background: linear-gradient(hsla(0,0%,100%,.6),hsla(0,0%,100%,.9) 70%,#ECEEEF),
-    url(../img/maps.jpg) no-repeat center center fixed;
+    url(../img/maps.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -110,6 +110,20 @@ footer {
 p.m-0.text-center.my-brand a {
   font-family: 'Pacifico', cursive;
   color: #232B35;
+}
+
+.btn-primary {
+  background-color: #626F82;
+  border-color: #6C8A99;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #6C8A99 !important;
+  border-color: #6C8A99 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108, 138, 153, 0.5);
 }
 
 @media (min-width: 992px) {

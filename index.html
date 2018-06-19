@@ -8,120 +8,141 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Health News Journal</title>
+    <title>Map 671 - Final Project</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/portfolio-item.css" rel="stylesheet">
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|IBM+Plex+Serif|Pacifico" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
-    <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+    <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|IBM+Plex+Serif|Pacifico" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
   </head>
 
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Health News Journal</a>
+        <a class="navbar-brand" href="#">MAP 671 - Final Project</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
       </div>
     </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-
-      <!-- Portfolio Item Heading -->
-      <h1 class="my-4">Suicide rising across the US
-        <small>June 2018</small>
-      </h1>
-
-      <!-- Portfolio Item Row -->
-      <div class="row">
-
-        <div class="col-md-8">
-          <iframe width="100%" height="520" frameborder="0" src="https://nmp.carto.com/u/benhazlerig/builder/b1f55606-150a-479a-8be2-a423925f8083/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-          <a href="https://nmp.carto.com/u/benhazlerig/builder/b1f55606-150a-479a-8be2-a423925f8083/embed">Enlarge map</a>
+    <header class="masthead text-center text-white">
+      <div class="masthead-content">
+        <div class="container">
+          <h1 class="masthead-heading mb-0">MAP 671</h1>
+          <h2 class="masthead-subheading mb-0">Final Project - Spring 2018</h2>
+          <h4>An interactive map on the rising suicide rate in the United States</h4>
+          <h2 class="masthead-subheading mb-0"><a href="https://newmapsplus.uky.edu/"><img class="filter" src="https://newmapsplus.uky.edu/sites/all/themes/nmp_theme/img/logo-horizontal.png" alt="Home" width="30%"></a></h2>
         </div>
-
-        <div class="col-md-4">
-          <h3 class="my-3">CDC Vital Signs, June 2018</h3>
-          <p>The CDC recently released data indicating a rising suicide rate during the years 1999 - 2016 in the United States. Trends for each State in the US are shown with the percentage change in suicide rate per 100,000 population.</p>
-          <h3 class="my-3">Data Resources</h3>
-          <ul>
-            <li><a href="https://www.cdc.gov/mmwr/volumes/67/wr/mm6722a1.htm">CDC Vital Signs</a></li>
-            <li><a href="https://www.cdc.gov/nchs/data/databriefs/db309.pdf">NCHS Data Brief</a></li>
-          </ul>
-        </div>
-
       </div>
-      <!-- /.row -->
+    </header>
 
-      <!-- Related Projects Row -->
-      <h3 class="my-4">Other Resources</h3>
-
-      <div class="row">
-
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
+    <section>
+      <div class="container">
+          <div class="col-lg-12">
+            <div class="p-5">
+              <h2 class="display-4">A sobering statistic...</h2>
+              <p>The Centers for Disease Control and Prevention (CDC) released a report in June 2018 indicating the suicide rate in the United States has risen nearly 30% since 1999. The CDC provided data on the state-level suicide rate, age-adjusted for persons ≥ 10 years old per 100,000 population. Only one state, Nevada, had a rate that decreased during this period. Note that Nevada has had a consistently high rate of suicide since 1999. I've created an interactive map, using Carto, that displays the suicide rate in each state in a graduated blue color scheme. I plan to add county-level data to the map eventually. At this time, many of the counties have statistically unreliable data.</p>
+             <iframe width="100%" height="520" frameborder="0" src="https://nmp.carto.com/u/benhazlerig/builder/b1f55606-150a-479a-8be2-a423925f8083/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+          </div>
         </div>
-
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
-        </div>
-
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
-        </div>
-
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
-        </div>
-
       </div>
-      <!-- /.row -->
+    </section>
 
-    </div>
-    <!-- /.container -->
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 order-lg-2">
+            <div class="p-5">
+              <img class="img-fluid" src="img/cdc_suicide_by_gender.png" alt="Suicide Both Genders">
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="p-5">
+              <h2 class="display-4 text-right">Year 2016 by Age & Gender</h2>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <img class="img-fluid" src="img/cdc_suicide_by_females.png" alt="Suicide Rate by Females">
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-4">Suicide by Females</h2>
+              <p>A key finding in the data is a 50% change in suicide among females from 2000 to 2016, most notably women aged 45 - 64.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <div class="p-5">
+              <h2 class="display-4">Things to consider about the data</h2>
+              <p>Per the CDC, "The findings in this report are subject to at least three limitations. First, in the state-level analysis, rankings for four states (Maryland, Massachusetts, Rhode Island, and Utah) might have been affected by large proportions of injury deaths of undetermined intent (potentially biasing reported suicide rates downward) or decreased percentages of such deaths over time (potentially biasing estimated rate trends upward). Second, NVDRS (National Violent Death Reporting System) is not yet nationally representative; the 27 states included represent 49.6% of the population <a href="https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml">https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml</a>. Finally, abstractors of NVDRS data are limited to information contained in investigative reports. Therefore, the extent of informant knowledge can affect data completeness and accuracy." See this <a href="https://www.cdc.gov/mmwr/volumes/67/wr/mm6722a1.htm">link</a> for the full report.</p>
+              <p>Also of note is the table below, which contains data collected before 1999. In analyzing the data back to 1950, the suicide rate doesn't appear to have a significant change. It's interesting to see a dip in the suicide rate from 2000 to 2005. </p>
+                <img class="img-fluid" src="img/cdc_suicide_large_span.jpg" alt="Suicide rate since 1970"><img>
+            </div>
+            <div class="p-5">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-takeaways">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/rolled-maps.jpg" alt="Map distortion">
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-4">Key takeaway</h2>
+              <p>I started this map after seeing maps presented online on the increasing suicide rate from recent CDC reports. I thought many of these maps needed interactivity and a higher level of detail. I wondered if there is something that the geospatial perspective could tell us about this issue. As I investigated, I discovered some of the weaknesses in the data. The key takeaway I've had from this project and the MAP 671 class overall is how difficult data collection can be and going back to Module 1, how maps can potentially mislead. I've gained a greater appreciation for the responsibility I have as a creator to carefully represent data using digital maps.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer class="py-3">
 			<div class="container">
 				<p class="m-0 text-center">Data acquired from <a href="https://www.cdc.gov/nchs/nvss/index.htm" target="_blank">CDC Vital Signs</a></p>
-					<p class="m-0 text-center">Map created by Ben Hazlerig in June 2018. Data processed on mac OS 10.13 and hosted on <a href="https://carto.com/" target="_blank">CARTO.</a></p>
+					<p class="m-0 text-center">Map created by Ben Hazlerig in June 2018. Data processed on mac OS 10.13 and hosted on <a href="https://carto.com/" target="_blank">CARTO.</a>
+          </p>
+          <p class="m-0 text-center">Background image by Andrew Neel and Rolled Maps image by Ruthie on <a href="https://unsplash.com/search/photos/map">Unsplash</a></p>
 					<p class="m-0 text-center my-brand">
 						<a href="https://benjaminsmaps.github.io/" target="_blank">BenjaminsMaps</a>
 						<a href="https://twitter.com/BenHazlerig" target="_blank"><i class="fab fa-twitter"></i></a>
